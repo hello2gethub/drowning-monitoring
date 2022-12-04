@@ -1,0 +1,8 @@
+{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3d7ef9",
+    "navigationBarTitleText": "记录",
+    "navigationBarTextStyle": "white",
+    "backgroudColorTop":"#3d7ef9",
+    "enablePullDownRefresh":true
+}

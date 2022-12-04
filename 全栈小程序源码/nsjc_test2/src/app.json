@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/login/main", 
+    "pages/home/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/opinion/main",
+    "pages/guide/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位模块",
+      "scope.userInfo": {
+        "desc": "授权登录"
+      }
+    }
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#1989fa",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "实时监测",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "记录",
+        "pagePath": "pages/home/main",
+        "iconPath": "static/tabs/hezi.png",
+        "selectedIconPath": "static/tabs/hezi-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      }
+    ],
+    "items": [
+      {
+        "name": "实时监测",
+        "pagePath": "pages/index/main",
+        "icon": "static/tabs/home.png",
+        "activeIcon": "static/tabs/home-active.png"
+      },
+      {
+        "text": "记录",
+        "pagePath": "pages/home/main",
+        "iconPath": "static/tabs/hezi.png",
+        "selectedIconPath": "static/tabs/hezi-active.png"
+      },
+      {
+        "name": "我的",
+        "pagePath": "pages/logs/main",
+        "icon": "static/tabs/orders.png",
+        "activeIcon": "static/tabs/orders-active.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/dist/button/index",
+    "van-field": "vant-weapp/dist/field/index",
+    "van-toast": "vant-weapp/dist/toast/index",
+    "van-dialog": "vant-weapp/dist/dialog/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-cell":"vant-weapp/dist/cell/index",
+    "van-popup":"vant-weapp/dist/popup/index"
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.17",
+      "provider": "wx50b5593e81dd937a"
+    }
+  }
+}
